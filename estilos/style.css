@@ -14,7 +14,7 @@
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-color: #005a8f;
     height: 100vh;
     width: 100vw;
 }
@@ -34,5 +34,21 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #005a8f url(../imagens/pexels-arteliusnis-5338350.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
 
