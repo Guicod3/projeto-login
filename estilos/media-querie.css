@@ -51,4 +51,7 @@
         font-size: 2em;
     }   
 
+    div.campo > input{
+        transform: translateY(-10.5px);
+    }
 }

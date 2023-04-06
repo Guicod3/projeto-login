@@ -108,7 +108,7 @@ div.campo > input{
     border: 0px;
     padding: 4px;
     background-color: #fff5e3;
-    transform: translateY(-11px);
+    transform: translateY(-10px);
 }
 
 form > button{
