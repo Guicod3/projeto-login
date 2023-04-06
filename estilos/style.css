@@ -32,7 +32,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
@@ -42,7 +42,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #005a8f url(../imagens/pexels-arteliusnis-5338350.jpg) no-repeat;
+    background: #005b8f url(../imagens/pexels-arteliusnis-5338350.jpg) no-repeat;
     height: 200px;
     background-size: cover;
 }
@@ -59,4 +59,51 @@ div#formulario{
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #006097ad;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #0082ceb4;
+}
+
+.campo{
+    background-color: #ffd993e8;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form > button{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    background-color:white;
+    border-color: #005b8f;
+    border-radius: 30px;
+    width: 100%;
+    color: #005a8f;
+    height: 40px;
+}
+
+form > button:hover{
+    background-color: #006097ad;
+    color: white;
+    border: 0;
 }
